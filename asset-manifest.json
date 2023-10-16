@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/inventorysystem/static/css/main.444a8d54.css",
+    "main.js": "/inventorysystem/static/js/main.dfd105a2.js",
+    "static/js/787.70d9ad1f.chunk.js": "/inventorysystem/static/js/787.70d9ad1f.chunk.js",
+    "index.html": "/inventorysystem/index.html",
+    "main.444a8d54.css.map": "/inventorysystem/static/css/main.444a8d54.css.map",
+    "main.dfd105a2.js.map": "/inventorysystem/static/js/main.dfd105a2.js.map",
+    "787.70d9ad1f.chunk.js.map": "/inventorysystem/static/js/787.70d9ad1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.444a8d54.css",
+    "static/js/main.dfd105a2.js"
+  ]
+}
