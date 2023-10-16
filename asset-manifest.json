@@ -1,15 +1,30 @@
 {
   "files": {
-    "main.css": "/inventorysystem/static/css/main.444a8d54.css",
-    "main.js": "/inventorysystem/static/js/main.dfd105a2.js",
+    "main.css": "/inventorysystem/static/css/main.4728e4fd.css",
+    "main.js": "/inventorysystem/static/js/main.38861253.js",
     "static/js/787.70d9ad1f.chunk.js": "/inventorysystem/static/js/787.70d9ad1f.chunk.js",
+    "static/media/materialdesignicons-webfont.eot": "/inventorysystem/static/media/materialdesignicons-webfont.b04f03f08b5445700a30.eot",
+    "static/media/materialdesignicons-webfont.ttf?v=7.3.67": "/inventorysystem/static/media/materialdesignicons-webfont.89ae221302c6617c0a87.ttf",
+    "static/media/materialdesignicons-webfont.woff?v=7.3.67": "/inventorysystem/static/media/materialdesignicons-webfont.7484a6c648c26cc63e73.woff",
+    "static/media/materialdesignicons-webfont.woff2?v=7.3.67": "/inventorysystem/static/media/materialdesignicons-webfont.f97b38e4afe65388b4f0.woff2",
+    "static/media/register-bg.jpg": "/inventorysystem/static/media/register-bg.951d161274c555a71985.jpg",
+    "static/media/lockscreen-bg.jpg": "/inventorysystem/static/media/lockscreen-bg.5f5074b5d05fd6cd07f5.jpg",
+    "static/media/login-bg.jpg": "/inventorysystem/static/media/login-bg.7593b671c1b315317231.jpg",
+    "static/media/2.jpg": "/inventorysystem/static/media/2.9f53ee4a2fe2954f8381.jpg",
+    "static/media/1.jpg": "/inventorysystem/static/media/1.ebc878efa96546a10e40.jpg",
+    "static/media/face3.jpg": "/inventorysystem/static/media/face3.543e4d2726491ee4a2b1.jpg",
+    "static/media/3.jpg": "/inventorysystem/static/media/3.5408dc12ba22ed149be1.jpg",
+    "static/media/face2.jpg": "/inventorysystem/static/media/face2.f14e69481b20aa9de777.jpg",
+    "static/media/face4.jpg": "/inventorysystem/static/media/face4.ade8a387199e4e1315f1.jpg",
+    "static/media/logo.svg": "/inventorysystem/static/media/logo.ec802e3231828aa7fb1232f35992d8d8.svg",
+    "static/media/logo-mini.svg": "/inventorysystem/static/media/logo-mini.aaeb2a7721a01eea3a11dc2a6d4f2f55.svg",
     "index.html": "/inventorysystem/index.html",
-    "main.444a8d54.css.map": "/inventorysystem/static/css/main.444a8d54.css.map",
-    "main.dfd105a2.js.map": "/inventorysystem/static/js/main.dfd105a2.js.map",
+    "main.4728e4fd.css.map": "/inventorysystem/static/css/main.4728e4fd.css.map",
+    "main.38861253.js.map": "/inventorysystem/static/js/main.38861253.js.map",
     "787.70d9ad1f.chunk.js.map": "/inventorysystem/static/js/787.70d9ad1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.444a8d54.css",
-    "static/js/main.dfd105a2.js"
+    "static/css/main.4728e4fd.css",
+    "static/js/main.38861253.js"
   ]
 }
