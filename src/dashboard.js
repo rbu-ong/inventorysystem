@@ -1,20 +1,11 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 
-import Menu from "./components/menu";
+import NavBar from "./components/NavBar";
 
 export default function Dashboard(props) {
   return (
     <React.Fragment>
-      <Menu />
-      <Button
-        onClick={() => {
-          localStorage.setItem("isLoggedIn", 0);
-          props.setLoggedIn(0);
-        }}
-      >
-        Logout
-      </Button>
+      <NavBar onLogout={props.onLogout} />
     </React.Fragment>
   );
 }

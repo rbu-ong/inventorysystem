@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Login from "./login";
+import "./App.scss";
+import AuthContext from "./store/auth-context";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Dashboard from "./dashboard";
@@ -13,6 +15,11 @@ function App() {
     setLoggedIn(1);
   };
 
+  const onLogout = () => {
+    localStorage.removeItem("isLoggedIn");
+    setLoggedIn(0);
+  };
+
   useEffect(() => {
     if (localStorage.getItem("isLoggedIn") === "1") {
       setLoggedIn(1);
@@ -20,13 +27,17 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <AuthContext.Provider
+      value={{
+        isLoggedIn: isLoggedIn,
+      }}
+    >
       {!isLoggedIn ? (
         <Login onLogin={onLogin} />
       ) : (
-        <Dashboard setLoggedIn={setLoggedIn} />
+        <Dashboard setLoggedIn={setLoggedIn} onLogout={onLogout} />
       )}
-    </div>
+    </AuthContext.Provider>
   );
 }
 
